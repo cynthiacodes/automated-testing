@@ -9,12 +9,12 @@
  */
 function findShortestString(stringArr) {
   let shortestString = stringArr[0];
-  for (let str of stringArr) {
-    if (str.length < shortestString.length) {
-      shortestString = str;
+  for (let string of stringArr) {
+    if (string.length < shortestString.length) {
+      shortestString = string;
     }
   }
-  return shortestString.length;
+  return shortestString;
 }
 
 module.exports = findShortestString;
